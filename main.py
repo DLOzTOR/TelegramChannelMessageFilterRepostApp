@@ -1,9 +1,9 @@
 from telethon.sync import TelegramClient,events
 
-api_id =  #тут число
+api_id = #тут число
 api_hash = ""
 client = TelegramClient('AndrewHelicopterParcer', api_id, api_hash).start()
-channel = ["",""]#можно установить несколько
+channel = ["@writeBotMassage"]#можно установить несколько
 sendTo = ""
 
 
